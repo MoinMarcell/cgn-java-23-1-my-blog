@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'RickAndMorty';
+    src: url("font/RickAndMorty.ttf");
+}
+.header-title{
+    font-family: RickAndMorty, serif;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+header img{
+    width: 200px;
+}
+
+header ul{
+    list-style-type: none;
+    display: flex;
+}
+
+header ul li{
+    border: 1px solid black;
+    border-radius: 10%;
+    margin-left: 5px;
+}
